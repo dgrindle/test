@@ -27,7 +27,7 @@ fetch(url, {
 })
 .then(json => {
     console.log(json);
-	alert(`Created API key for persistent access: ${json.accessToken}`);
+	alert(`Created API key for persistent access: ${json.publicApiKey}`);
 })
 .catch(error => {
     console.error('There was a problem with the fetch operation:', error);
